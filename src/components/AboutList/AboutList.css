@@ -26,6 +26,7 @@
     margin: 0;
     text-align: center;
     align-self: flex-end;
+    max-width: 80vh;
   }
 
 .li-about-profil {
