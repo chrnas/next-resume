@@ -56,7 +56,7 @@ const ContactForm: React.FC = () =>{
               required
             />
           </div>
-          <button className="submit-button" type="submit">Mail</button>
+          <button className="form-button" type="submit">Mail</button>
         </form>
     );
 };

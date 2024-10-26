@@ -7,6 +7,9 @@
   z-index: 1000;
   border: black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar ul {
@@ -15,10 +18,11 @@
   padding: 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* Allows wrapping to multiple rows */
 }
 
 .navbar li {
-  margin: 0 15px;
+  margin: 0 0px;
 }
 
 .navbar button {
@@ -28,7 +32,7 @@
   border: rgba(240, 248, 255, 0.7);
   border: 1px solid transparent; /* Added visible border */
   text-align: center;
-  padding: 16px 16px;
+  padding: 1vh 3vh;
   text-decoration: none;
   cursor: pointer;
   font-size: 20px;

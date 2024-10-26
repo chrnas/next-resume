@@ -1,5 +1,5 @@
 .about-section {
-  height: 100vh;
+  height: auto;
   padding: 16px 10px;
   border-bottom: none;
 }
@@ -17,14 +17,14 @@
 }
 
 .about-grid-container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
+  display: flex; /* Make the list items align horizontally */
+  justify-content: center; /* Centers the list items horizontally */
   padding: 20px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
   transition: transform 0.2s ease-in-out;
   background-color: #f0f8ff;
   border-radius: 8px;
-  max-width: 1000px;
+  flex-wrap: wrap; /* Allows wrapping to multiple rows */
 }
 
 .grid-item {
