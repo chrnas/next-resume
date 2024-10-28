@@ -17,7 +17,7 @@ const ProjectGridItem: React.FC<{ project: Project }> = ({ project }) => {
           <div className="project-grid-item">
             <Image
               className="project-img"
-              src={require(`../../images/${project.image}.png`)}
+              src={require(`/public/images/${project.image}.png`)}
               alt=""
             />
           </div>

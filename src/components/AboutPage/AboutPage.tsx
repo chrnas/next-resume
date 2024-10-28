@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutPage.css";
-import logo from "../../images/profile_picture.jpg";
+import logo from "/public/images/profile_picture.jpg";
 import AboutList from "../../components/AboutList/AboutList";
 import aboutInfoData from "../../data/aboutInfo.json";
 import { AboutInfo } from "@/interfaces/AboutInfo";
